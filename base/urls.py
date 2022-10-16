@@ -6,7 +6,8 @@ urlpatterns = [
     path('register/', views.register_user, name='register'),
     path('product_detailed_view/', views.product_detailed_view, name='product_detailed_view'),
     path('login/', views.login_user, name='login'),
-   
+    path('logout/', views.logout_user, name='logout'),
+    path('chatbot/', views.render_chatbot, name='chatbot'),
 
 ]
 
